@@ -1,31 +1,78 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae de Bruce Wayne</title>
-  </head>
-  <body>
-    <h1>Curriculum Vitae de Bruce Wayne</h1>
-    <img src="images/Bruce_Wayne.jpg" />
-    <h2>Datos personales</h2>
-    <ul>
-      <li>Nombre completo: <strong>Bruce Wayne</strong></li>
-      <li>Fecha de nacimiento: <strong>1/5/1939</strong></li>
-      <li>Lugar de nacimiento: <strong>Gotham City</strong></li>
-    </ul>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://kit.fontawesome.com/6e67eec3e0.js" crossorigin="anonymous"></script>
+    <label for="file"></label>
+</head>
+<body>
+  <main class="flex-main-cv">
+    <header class="header">
+      <img src="images/Bruce_Wayne.jpg" />
+      <section class="header-text">
+      <h1>Bruce Wayne</h1>
+      <h2>Caballero de la Noche</h2>
+      </section>
+    </header>
+  <aside class="cv-body">
+    <section class="content-user-info">
+      <h3>Contacto</h3>
+      <i class="fa-regular fa-envelope"></i>
+      <p> <strong>Email:</strong> brucewayne@batman.com </p>
+      <i class="fa-solid fa-mobile-screen-button"></i>
+      <p>
+      <strong>Teléfono:</strong> 0123283923 
+      </p>
+      <i class="fa-solid fa-location-crosshairs"></i>
+      <p>
+      <strong>Ubicación:</strong> Ciudad Gótica
+      </p>
+      <h3>Formación Academica</h3>
+      <div class="Intereses1">
+        <p><strong>Héroe</strong><br>Universidad Espantapájaros <br>
+        <p><strong>Combate Mano a Mano</strong><br>Instituto de Dos Caras <br>
+        <p><strong>Máster en salvar la ciudad</strong><br>Escuela Primaria del Joker
+      </div>
+    </section>
+  
+    <section class="content-profile-details">
+      <h3>Perfil</h3>
+      <p class="Perfil">Soy un filántropo, multimillonario y el presidente corporativo de Empresas Wayne. En secreto, soy yo él que encarna a Batman, el héroe enmascarado que lucha contra el mundo del hampa y del crimen organizado en Ciudad Gótica combatiendo a peligrosos criminales que amenazan la paz de sus conciudadanos. Yo juré ante la tumba de mis fallecidos padres, quienes murieron en un atraco a mano armada, combatir la delincuencia en todos sus aspectos.</p>
+      <h3>Experiencia Previa</h3>
 
-    <h2>Formación académica</h2>
-    <ul>
-      <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
-      <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
-      <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
-    </ul>
+      <ul>
+        <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
+        <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
+        <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
+      </ul>
+      <div class="hv-bot">
+        <h3 class="HTecnicas">Habilidades Técnicas</h3>
+        <table class="HTecnicas-tab">
+          <tr>
+            <th>Habilidad</th>
+            <th>Calificación</th>
+          </tr>
+          <tr>
+            <td>Conquistar chicas</td>
+            <td><progress id="file" max="10" value="9"> 70% </progress></td>
+          </tr>
+          <tr>
+            <td>Salvar el mundo</td>
+            <td><progress id="file" max="100" value="85"> 70% </progress></td>
+          </tr>
+          <tr>
+              <td>Conquistar Chicas</td>
+              <td><progress id="file" max="100" value="20"> 70% </progress></td>
+            </tr>
+        </table>
 
-    <h2>Experiencia laboral</h2>
-    <ul>
-      <li>1975-1985: <strong>En el paro</strong></li>
-      <li>1965-1975: <strong>Cazavillanos y demás chusma</strong></li>
-      <li>1962-1965: <strong>Aprendiz de superhéroe</strong></li>
-    </ul>
-  </body>
+      </div>
+    </section>
+  </aside>
+  </main>
+</body>
 </html>
